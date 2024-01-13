@@ -1,0 +1,194 @@
+[Root]
+Most Recent Package=bao
+
+
+[Package|nghia|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\musicpro
+
+[Package|nghia|Configure DAO ISAMs]
+Applicable=No
+
+[Package|nghia|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|nghia|Files Found]
+
+[Package|nghia|Files Released]
+
+[Package|nghia|Missing Dependency Information]
+C:\WINNT\system32\msdxm.ocx=
+
+[Package|nghia|Out-of-Date Dependency Information]
+C:\WINNT\system32\comdlg32.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|nghia|Files Added]
+
+[Package|nghia|Files Removed]
+
+[Package|nghia|Files In Project]
+E:\nghia\VB lessons\Music pro\music.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\msdxm.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|nghia|Configure Registry Files]
+Applicable=No
+
+[Package|nghia|Configure Remote Servers]
+Applicable=No
+
+[Package|nghia|Install Locations]
+E:\nghia\VB lessons\Music pro\music.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|nghia|Configure Shared Files]
+Applicable=Yes
+E:\nghia\VB lessons\Music pro\music.exe=Yes
+
+[Package|nghia|Distribution]
+Type=single
+Size=
+Title=Hnghia
+
+[Package|nghia|IconGroups]
+Group0=Hnghia
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|nghia|Hnghia]
+Icon1=music.exe
+Title1=Hnghia
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|nghia|Package]
+PackageFolder=E:\musicpro
+ProjectFolder=E:\nghia\VB lessons\Music pro
+ServerSideCab=
+File1=E:\musicpro\setup.exe
+File2=E:\musicpro\Setup.Lst
+File3=E:\musicpro\music.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|bao|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\musicpro
+
+[Package|bao|Configure DAO ISAMs]
+Applicable=No
+
+[Package|bao|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|bao|Files Found]
+
+[Package|bao|Files Released]
+
+[Package|bao|Missing Dependency Information]
+C:\WINNT\system32\msdxm.ocx=
+
+[Package|bao|Out-of-Date Dependency Information]
+C:\WINNT\system32\comdlg32.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|bao|Files Added]
+
+[Package|bao|Files Removed]
+
+[Package|bao|Files In Project]
+E:\nghia\VB lessons\Music pro\music.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\msdxm.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|bao|Configure Registry Files]
+Applicable=No
+
+[Package|bao|Configure Remote Servers]
+Applicable=No
+
+[Package|bao|Install Locations]
+E:\nghia\VB lessons\Music pro\music.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|bao|Configure Shared Files]
+Applicable=Yes
+E:\nghia\VB lessons\Music pro\music.exe=Yes
+
+[Package|bao|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Hnghia
+
+[Package|bao|IconGroups]
+Group0=Hnghia
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|bao|Hnghia]
+Icon1=music.exe
+Title1=Hnghia
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|bao|Package]
+PackageFolder=E:\musicpro
+ProjectFolder=E:\nghia\VB lessons\Music pro
+ServerSideCab=
+File1=E:\musicpro\setup.exe
+File2=E:\musicpro\Setup.Lst
+File3=E:\musicpro\music1.CAB
+File4=E:\musicpro\music2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
